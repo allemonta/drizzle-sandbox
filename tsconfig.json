@@ -5,6 +5,11 @@
     "paths": {
       "$types/*": ["src/types/*"],
       "$utils/*": ["src/utils/*"],
-    }
+      "$components/*": ["src/components/*"],
+      "$schemas/*": ["src/schemas/*"],
+      "$services/*": ["src/services/*"]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
   }
 }
